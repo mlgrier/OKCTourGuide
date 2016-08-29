@@ -16,6 +16,9 @@ import java.util.ArrayList;
  */
 public class DetailsAdapter extends ArrayAdapter<Details> {
 
+    // Resource ID for the background color for this list of words
+    private int mColorResourceId;
+
 
     // context is the current context (i.e. Activity) that the adapter is being created in
     // words is the list of words to be displayed.
