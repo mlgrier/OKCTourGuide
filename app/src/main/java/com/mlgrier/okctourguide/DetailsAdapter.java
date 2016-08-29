@@ -20,7 +20,7 @@ public class DetailsAdapter extends ArrayAdapter<Details> {
     // context is the current context (i.e. Activity) that the adapter is being created in
     // words is the list of words to be displayed.
     // colorResourceId is the resource ID for the background color for this list of words
-    public DetailsAdapter(Activity context, ArrayList<Details> words) {
+    public DetailsAdapter (Activity context, ArrayList<Details> words) {
         super(context, 0, words);
     }
 
@@ -31,15 +31,15 @@ public class DetailsAdapter extends ArrayAdapter<Details> {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
-        Word currentWord = getItem(position);
+        Details currentDetails = getItem(position);
 
         TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
 
-        miwokTextView.setText(currentWord.getMiwokTranslation());
+        miwokTextView.setText(currentDetails.getMiwokTranslation());
 
         TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
 
-        defaultTextView.setText(currentWord.getDefaultTranslation());
+        defaultTextView.setText(currentDetails.getDefaultTranslation());
 
         // Find the ImageView in the list_item.xml layout with the ID image.
 
@@ -47,15 +47,15 @@ public class DetailsAdapter extends ArrayAdapter<Details> {
 
         // Set the ImageView to the image resource specified in the current Details
 
-        imageView.setImageResource(currentWord.getImageResourceId());
+        imageView.setImageResource(currentDetails.getImageResourceId());
 
         // Check if an image is provided for this word or not
 
-        if (currentWord.hasImage()) {
+        if (currentDetails.hasImage()) {
 
             // If an image is available, display the provided image based on the resource ID
 
-            imageView.setImageResource(currentWord.getImageResourceId());
+            imageView.setImageResource(currentDetails.getImageResourceId());
 
             // Make sure the view is visible
 
