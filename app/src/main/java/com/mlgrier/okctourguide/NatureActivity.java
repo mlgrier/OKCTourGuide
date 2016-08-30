@@ -15,6 +15,8 @@ public class NatureActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.details_list);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         //Creating a ArrayList: Using String for words
         final ArrayList<Details> detail = new ArrayList<Details>();
         //Elements below should be added to the array list
