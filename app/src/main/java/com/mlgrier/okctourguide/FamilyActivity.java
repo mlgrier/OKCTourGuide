@@ -22,16 +22,16 @@ public class FamilyActivity extends AppCompatActivity {
         /*numberWords.add("one"); detail.add(new Details("Greek Festival",
         "Sep 23-25", R.drawable.number_one, R.raw.number_one));
          */
-        detail.add(new Details("Myriad Gardens", "301 W. Reno Ave. OKC, OK 73102"));
-        detail.add(new Details("Firefighters Museum", "2716 N.E. 50th St. OKC, OK 73111"));
-        detail.add(new Details("Boathouse District", "725 S. Lincoln Blvd OKC, OK 73102"));
-        detail.add(new Details("Science Museum", "2020 Remington Pl. OKC, OK 73111"));
-        detail.add(new Details("Oklahoma City Zoo", "2101 N.E. 50th St. OKC, OK 73111"));
-        detail.add(new Details("Museum Of Osteology", "10301 S. Sunnyland Rd. OKC, OK 73160"));
-        detail.add(new Details("Brickopolis", "101 S. Mickey Mantle Dr. OKC, OK 73104"));
-        detail.add(new Details("Pole Position Raceway", "2905 N.W. 36th St. OKC, OK 73112"));
-        detail.add(new Details("Frontier City Theme Park", "11501 N. I-35. OKC, Ok 73131"));
-        detail.add(new Details("White Water Bay", "3908 W. Reno Ave. OKC, OK 73107"));
+        detail.add(new Details("Andy Alligator's Fun Park", "301 W. Reno Ave. OKC, OK 73102", R.drawable.andy));
+        detail.add(new Details("Acme Brick Park", "2716 N.E. 50th St. OKC, OK 73111", R.drawable.brickpark));
+        detail.add(new Details("Chester's Party Farm", "725 S. Lincoln Blvd OKC, OK 73102", R.drawable.farm));
+        detail.add(new Details("Celebration Station", "2020 Remington Pl. OKC, OK 73111", R.drawable.station));
+        detail.add(new Details("GattiTown Fun Center", "2101 N.E. 50th St. OKC, OK 73111", R.drawable.gatti));
+        detail.add(new Details("Great Balls Of Fire Bowling", "10301 S. Sunnyland Rd. OKC, OK 73160", R.drawable.great));
+        detail.add(new Details("Brickopolis", "101 S. Mickey Mantle Dr. OKC, OK 73104", R.drawable.brick));
+        detail.add(new Details("HeyDay Center", "2905 N.W. 36th St. OKC, OK 73112", R.drawable.heyday));
+        detail.add(new Details("Frontier City Theme Park", "11501 N. I-35. OKC, Ok 73131", R.drawable.frontier));
+        detail.add(new Details("White Water Bay", "3908 W. Reno Ave. OKC, OK 73107", R.drawable.white));
 
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
