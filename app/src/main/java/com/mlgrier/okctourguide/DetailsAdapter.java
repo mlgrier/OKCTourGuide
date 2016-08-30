@@ -16,15 +16,16 @@ import java.util.ArrayList;
  */
 public class DetailsAdapter extends ArrayAdapter<Details> {
 
-    // Resource ID for the background color for this list of words
+    // Resource ID for the background color for this list of detail
     private int mColorResourceId;
 
 
     // context is the current context (i.e. Activity) that the adapter is being created in
-    // words is the list of words to be displayed.
-    // colorResourceId is the resource ID for the background color for this list of words
-    public DetailsAdapter (Activity context, ArrayList<Details> words) {
-        super(context, 0, words);
+    // detail is the list of detail to be displayed.
+    // colorResourceId is the resource ID for the background color for this list of detail
+    public DetailsAdapter (Activity context, ArrayList<Details> detail, int colorResourceId) {
+        super(context, 0, detail);
+        mColorResourceId = colorResourceId;
     }
 
     @Override
