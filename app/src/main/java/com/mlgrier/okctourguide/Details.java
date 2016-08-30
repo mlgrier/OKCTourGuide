@@ -5,11 +5,11 @@ package com.mlgrier.okctourguide;
  */
 public class Details {
 
-    //Default translation for the word
-    private String mDefaultTranslation;
+    //Default details
+    private String mDetailName;
 
-    //Miwok translation for the word
-    private String mMiwokTranslation;
+    //More Information about the event/location
+    private String mMoreInfo;
 
     // Image resource ID for the word
     private int mImageResourceId = NO_IMAGE_PROVIDED;
@@ -17,25 +17,26 @@ public class Details {
     // Constant value that represents no image was provided for this word
     private static final int NO_IMAGE_PROVIDED = 0;
 
-    public Details(String defaultTranslation, String miwokTranslation) {
-        mDefaultTranslation = defaultTranslation;
-        mMiwokTranslation = miwokTranslation;
+    public Details(String detailName, String moreInfo) {
+        mMoreInfo = moreInfo;
+        mDetailName = detailName;
+
     }
 
-    public Details(String defaultTranslation, String miwokTranslation, int imageResourceId) {
-        mDefaultTranslation = defaultTranslation;
-        mMiwokTranslation = miwokTranslation;
+    public Details(String detailName, String moreInfo, int imageResourceId) {
+        mDetailName = detailName;
+        mMoreInfo = moreInfo;
         mImageResourceId = imageResourceId;
     }
 
     // Get the default translation of the word.
-    public String getDefaultTranslation() {
-        return mDefaultTranslation;
+    public String getDetailName() {
+        return mDetailName;
     }
 
     // Get the Miwok translation of the word.
-    public String getMiwokTranslation() {
-        return mMiwokTranslation;
+    public String getMoreInfo() {
+        return mMoreInfo;
     }
 
     // Create a new word object
