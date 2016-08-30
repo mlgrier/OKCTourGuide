@@ -62,13 +62,13 @@ public class EventsActivity extends AppCompatActivity {
                 Details details = detail.get(position);
 
 
-                }
+            }
 
 
         });
 
 
-}
+    }
 
 
 }

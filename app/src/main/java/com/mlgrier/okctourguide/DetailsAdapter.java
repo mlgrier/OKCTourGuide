@@ -37,13 +37,13 @@ public class DetailsAdapter extends ArrayAdapter<Details> {
 
         Details currentDetails = getItem(position);
 
-        TextView defaultTextView = (TextView) listItemView.findViewById(R.id.detailsName);
+        TextView detailsTextView = (TextView) listItemView.findViewById(R.id.detailsName);
 
-        defaultTextView.setText(currentDetails.getDetailName());
+        detailsTextView.setText(currentDetails.getDetailName());
 
-        TextView miwokTextView = (TextView) listItemView.findViewById(R.id.moreInfo);
+        TextView moreTextView = (TextView) listItemView.findViewById(R.id.moreInfo);
 
-        miwokTextView.setText(currentDetails.getMoreInfo());
+        moreTextView.setText(currentDetails.getMoreInfo());
 
         // Find the ImageView in the list_item.xml layout with the ID image.
 
