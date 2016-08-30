@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Festivals and Events"
+        android:text="@string/category_events"
         android:id="@+id/eventsBtn"
         style="@style/CategoryStyle"
         android:background="@color/categoryEvents"/>
@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nightlife and Casinos"
+        android:text="@string/category_casinos"
         android:id="@+id/casinosBtn"
         style="@style/CategoryStyle"
         android:background="@color/categoryCasinos"/>
@@ -25,7 +25,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Family Activities"
+        android:text="@string/category_family"
         android:id="@+id/familyBtn"
         style="@style/CategoryStyle"
         android:background="@color/categoryFamily"/>
@@ -33,7 +33,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nature and Outdoors"
+        android:text="@string/category_nature"
         android:id="@+id/natureBtn"
         style="@style/CategoryStyle"
         android:background="@color/categoryNature"/>

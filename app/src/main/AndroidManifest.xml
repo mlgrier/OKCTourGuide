@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".EventsActivity"
-            android:label="Festivals and Events"
+            android:label="@string/category_events"
             android:parentActivityName=".MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
@@ -24,7 +24,7 @@
             android:value=".MainActivity"/>
         </activity>
         <activity android:name=".CasinosActivity"
-            android:label="Nightlife and Casinos"
+            android:label="@string/category_casinos"
             android:parentActivityName=".MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
@@ -32,7 +32,7 @@
             android:value=".MainActivity"/>
         </activity>
         <activity android:name=".FamilyActivity"
-            android:label="Family Activities"
+            android:label="@string/category_family"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
@@ -40,7 +40,7 @@
                 android:value=".MainActivity"/>
         </activity>
         <activity android:name=".NatureActivity"
-            android:label="Nature and Outdoors"
+            android:label="@string/category_nature"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
