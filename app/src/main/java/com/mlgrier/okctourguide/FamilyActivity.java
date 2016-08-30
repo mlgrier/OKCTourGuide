@@ -22,16 +22,16 @@ public class FamilyActivity extends AppCompatActivity {
         /*numberWords.add("one"); detail.add(new Details("Greek Festival",
         "Sep 23-25", R.drawable.number_one, R.raw.number_one));
          */
-        detail.add(new Details("Greek Festival", "Sep 23 - 25"));
-        detail.add(new Details("Oklahoma Bluegrass Festival", "Sep 29 - Oct 1"));
-        detail.add(new Details("Terror on 10th Haunted House", "Sep 30 - Oct 31"));
-        detail.add(new Details("Oklahoma Regatta Festival", "Sep 30 - Oct 2"));
-        detail.add(new Details("Oklahoma Czech Festival", "Oct 1 - 3"));
-        detail.add(new Details("Ink Life Tour", "Oct 9 - 11"));
-        detail.add(new Details("Brush Creek Bazaar", "Oct 14 - 16"));
-        detail.add(new Details("National Weather Festival", "Nov 5"));
-        detail.add(new Details("America on Tap", "Dec 10"));
-        detail.add(new Details("IPRA Finals Rodeo", "Jan 2017"));
+        detail.add(new Details("Myriad Gardens", "301 W. Reno Ave. OKC, OK 73102"));
+        detail.add(new Details("Firefighters Museum", "2716 N.E. 50th St. OKC, OK 73111"));
+        detail.add(new Details("Boathouse District", "725 S. Lincoln Blvd OKC, OK 73102"));
+        detail.add(new Details("Science Museum", "2020 Remington Pl. OKC, OK 73111"));
+        detail.add(new Details("Oklahoma City Zoo", "2101 N.E. 50th St. OKC, OK 73111"));
+        detail.add(new Details("Museum Of Osteology", "10301 S. Sunnyland Rd. OKC, OK 73160"));
+        detail.add(new Details("Brickopolis", "101 S. Mickey Mantle Dr. OKC, OK 73104"));
+        detail.add(new Details("Pole Position Raceway", "2905 N.W. 36th St. OKC, OK 73112"));
+        detail.add(new Details("Frontier City Theme Park", "11501 N. I-35. OKC, Ok 73131"));
+        detail.add(new Details("White Water Bay", "3908 W. Reno Ave. OKC, OK 73107"));
 
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
