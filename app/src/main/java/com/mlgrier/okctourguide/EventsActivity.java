@@ -20,17 +20,19 @@ public class EventsActivity extends AppCompatActivity {
         final ArrayList<Details> detail = new ArrayList<Details>();
         //Elements below should be added to the array list
 
-        //numberWords.add("one"); detail.add(new Details("one", "lutti", R.drawable.number_one, R.raw.number_one));
-        detail.add(new Details("Greek Festival", "Sep 23-25"));
-        detail.add(new Details("two", "otiiko"));
-        detail.add(new Details("three", "tolookosu"));
-        detail.add(new Details("four", "oyyisa"));
-        detail.add(new Details("five", "massokka"));
-        detail.add(new Details("six", "temmokka"));
-        detail.add(new Details("seven", "kenekaku"));
-        detail.add(new Details("eight", "kawinta"));
-        detail.add(new Details("nine", "wo'e"));
-        detail.add(new Details("ten", "na'aacha"));
+        /*numberWords.add("one"); detail.add(new Details("Greek Festival",
+        "Sep 23-25", R.drawable.number_one, R.raw.number_one));
+         */
+        detail.add(new Details("Greek Festival", "Sep 23 - 25"));
+        detail.add(new Details("Oklahoma Bluegrass Festival", "Sep 29 - Oct 1"));
+        detail.add(new Details("Terror on 10th Haunted House", "Sep 30 - Oct 31"));
+        detail.add(new Details("Oklahoma Regatta Festival", "Sep 30 - Oct 2"));
+        detail.add(new Details("Oklahoma Czech Festival", "Oct 1 - 3"));
+        detail.add(new Details("Ink Life Tour", "Oct 9 - 11"));
+        detail.add(new Details("Brush Creek Bazaar", "Oct 14 - 16"));
+        detail.add(new Details("National Weather Festival", "Nov 5"));
+        detail.add(new Details("America on Tap", "Dec 10"));
+        detail.add(new Details("IPRA Finals Rodeo", "Jan 2017"));
 
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
